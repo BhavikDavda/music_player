@@ -78,7 +78,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Video player section
+           
             if (chewieController != null)
               Center(
                 child: Container(
@@ -101,7 +101,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Video Title
+                  
                   Text(
                     widget.videoTitle,
                     style: const TextStyle(
@@ -112,7 +112,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
                   ),
                   const SizedBox(height: 8),
 
-                  // Channel Info and Views
+                 
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -134,7 +134,6 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
                   ),
                   const SizedBox(height: 12),
 
-                  // Video Description
                   GestureDetector(
                     onTap: () {
                       setState(() {
@@ -156,7 +155,6 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
                   ),
                   const SizedBox(height: 20),
 
-                  // Interaction Buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
@@ -191,7 +189,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
           child: IconButton(
             icon: Icon(icon, color: Colors.white),
             onPressed: () {
-              // Implement button functionality
+            
             },
           ),
         ),
